@@ -1,10 +1,10 @@
-#ifndef	GEOMETRY_H
+#ifndef GEOMETRY_H
 #define GEOMETRY_H
 
 typedef struct {
-	double value[10];
-	int type;
-	double S, P;
+    double value[10];
+    int type;
+    double S, P;
 } figure;
 
 int input_figure(char* arr, figure* fig);
